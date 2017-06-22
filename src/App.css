@@ -1,0 +1,177 @@
+.navbar{
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  margin: 10px 10px 10px;
+  background-color: #1ABC9C;
+}
+
+.logo{
+  padding-left: 30px;
+  margin-top: 10px;
+  color: white;
+  display: inline-block;
+}
+
+.userImage{
+  float: right;
+  width: 42px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navContainer {
+  margin: 0px 10px;
+  float: left;
+  width: 226px;
+  border: 3px solid lightgrey;
+  padding: 10px;
+}
+
+.home{
+  float: left;
+  width: 796px;
+  height: 455px;
+  border: 3px solid lightgrey;
+}
+
+.totalExpense{
+  float: left;
+  width: 217px;
+  height: 455px;
+
+  border: 3px solid lightgrey;
+  margin-left: 10px;
+}
+
+
+.allExpense{
+  width: 36px;
+}
+
+.allExpenseLink{
+  float: right;
+  padding-right: 73px;
+  padding-top: 10px;
+}
+
+.friends{
+  width: 152px;
+  font-size: large;
+  color: darkgrey;
+  margin-top: 10px;
+  border: 3px solid lightgrey;
+  padding-top: 2px;
+
+}
+
+.friendsImage{
+  width: 51px;
+  margin-top: 10px;
+}
+
+.friendsLink{
+  margin-top: 22px;
+  float: right;
+  padding-right: 97px;
+}
+
+.expense table {
+  border-collapse: collapse;
+  width: 97%;
+  margin: 10px 10px;
+}
+
+.expense th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.expense tr:nth-child(even){background-color: #f2f2f2}
+
+.expense th {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.myExpenses{
+  border: 3px solid lightgray;
+  padding-left: 59px;
+}
+
+.loginForm {
+  border: 3px solid #f1f1f1;
+  width: 324px;
+  height: 459px;
+  margin-left: 453px;
+}
+
+.emailInput , .pswdInput{
+  width: 278px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.loginButton{
+  background-color: #1ABC9C;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+
+}
+.signInButton{
+  padding-right: 55px;
+  background-color: #1ABC9C;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  margin-top: 21px;
+  cursor: pointer;
+  float: right;
+}
+
+.myEmail{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.writeExpense{
+  align-items: center;
+  padding-left: 58px;
+  margin-top: 10px;
+}
+
+.modal-body{
+  width: 311px
+}
+
+.friendsImage2{
+  width: 559px;
+}
+
